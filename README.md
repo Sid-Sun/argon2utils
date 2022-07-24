@@ -7,7 +7,7 @@ Quickly benchmark the performance of a wide range of argon2 configuration on you
 ##### In a UNIX-like environment, simply run:
 ```bash
 git clone https://github.com/Sid-Sun/argon2utils
-git clone argon2utils
+cd argon2utils
 go build -o argon2utils .
 ./argon2utils > data.csv
 column -s, -t < data.csv | less -#2  -S
